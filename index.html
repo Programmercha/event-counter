@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Event Counter</title>
+</head>
+<body class="d-flex fdc">
+    <div class="container border-radius d-flex fdc size abs">
+        <div id="title">Event Counter</div>
+       <form class="border-radius d-flex fdc bg" id="form">
+            <input type="text" class="border-radius" id="event_name" placeholder="Event Name">
+            <input type="date" class="border-radius" id="event_date" >
+            <button class="border-radius oq" id="count_btn">Count</button>
+       </form>
+    </div>
+
+    <div id="timer__wrapper" class="border-radius d-flex fdc size abs">
+        <div class="timer border-radius d-flex bg">
+            <div class="title" id="timer__event_name">Event Name</div>
+            <div class="timer__inner border-radius d-flex oq">
+                <div class="timer_block d-flex fdc">
+                    <span id="days">00 <span class="n n1">:</span></span>
+                    days
+                </div>
+                <div class="timer_block d-flex fdc">
+                    <span id="hours">00 <span class="n n2">:</span></span>
+                    hours
+                </div>
+                <div class="timer_block d-flex fdc">
+                    <span id="minutes">00 <span class="n n3">:</span></span>
+                    minutes
+                </div>
+                <div class="timer_block d-flex fdc">
+                    <span id="seconds">00</span></span>
+                    seconds
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="congrate d-flex fdc border-radius size abs">
+        <div class="congrate__wrapper border-radius d-flex bg">
+            <div class="congrate__text">Congratulation!</div>
+        </div>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+</html>
